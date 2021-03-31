@@ -1,0 +1,145 @@
+{
+   "Database_Connection":
+       [
+	{
+ 	  "Server_Name":"172.16.1.72",
+  	  "User_name": "Connect_LIVE_Readonly",
+  	  "Password": "Abc@1234",
+  	  "Database_name": "Recruitment"          
+  	 }
+ 	],
+   "Recruiter":
+       [
+	{
+ 	  "MISReport":"Recruiter Wise",
+  	  "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\fourfield_recruiter_data_template.xltx",
+  	  "InputDataFileName": "recruiter_data.xlsx",
+  	  "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\recruiter_test_data.xlsx",
+  	  "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\RecruiterOutput\\",
+  	  "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+  	  "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+  	  "EmailSubject": "Recruiter Wise Hiring Summary - As on"
+	}
+ 	 ],
+   "MonthlyRecruiter":
+       [
+	{
+ 	  "MISReport":"Monthly Recruiter Wise",
+          "ChartFileName":"Output_Monthly_Data",
+          "Stored_procedure_name": "SP_Recruiter_Monthly",          
+          "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\RecruiterInput",
+  	  "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\fourfield_recruiter_data_template.xltx",
+  	  "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\RecruiterOutput\\",
+  	  "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+  	  "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+  	  "EmailSubject": "Recruiter Wise Hiring Monthly Summary for"
+	}
+ 	 ],
+    "WeeklyRecruiter":
+       [
+	{
+ 	  "MISReport":"Weekly Recruiter Wise",
+          "ChartFileName":"Output_Weekly_Data",
+          "Stored_procedure_name": "SP_Recruiter_Weekly",          
+          "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\RecruiterInput",
+  	  "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\fourfield_recruiter_data_template.xltx",
+  	  "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\RecruiterOutput\\",
+  	  "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+  	  "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+  	  "EmailSubject": "Recruiter Wise Hiring Weekly Summary -As on"
+	}
+       ],
+    "MonthlyClient":
+	[ 
+	  {
+	    "MISReport":"Monthly Client Wise",
+            "ChartFileName":"Output_Monthly_Data",
+            "Stored_procedure_name": "SP_Client_Monthly",          
+            "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ClientInput",
+  	    "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\recruiter_data_template.xltx",  	    
+            "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ClientOutput\\",
+            "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+            "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+            "EmailSubject": "Client Wise Hiring Monthly Summary for"
+           }
+        ],
+     "WeeklyClient":
+	[ 
+	  {
+	    "MISReport":"Weekly Client Wise",
+            "ChartFileName":"Output_Weekly_Data",
+            "Stored_procedure_name": "SP_Client_Weekly",          
+            "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ClientInput",
+  	    "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\recruiter_data_template.xltx",  	    
+            "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ClientOutput\\",
+            "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+            "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+            "EmailSubject": "Client Wise Hiring Weekly Summary - As on"
+           }
+        ],
+     "MonthlyBranch":
+	[ 
+	  {
+	    "MISReport":"Monthly Branch Wise",
+            "ChartFileName":"Output_Monthly_Data",
+            "Stored_procedure_name": "SP_Branch_Monthly",          
+            "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\BranchInput",
+  	    "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\recruiter_data_template.xltx",  	    
+            "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\BranchOutput\\",
+            "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+           "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+            "EmailSubject": "Branch Wise Hiring Monthly Summary for"
+           }
+        ],
+     "WeeklyBranch":
+	[ 
+	  {
+	    "MISReport":"Weekly Branch Wise",
+            "ChartFileName":"Output_Weekly_Data",
+            "Stored_procedure_name": "SP_Branch_Weekly",          
+            "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\BranchInput",
+  	    "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\recruiter_data_template.xltx",  	    
+            "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\BranchOutput\\",
+            "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+           "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+            "EmailSubject": "Branch Wise Hiring Weekly Summary - As on"
+           }
+        ],
+     "MonthlyZone":
+	[ 
+	  {
+	    "MISReport":"Monthly Zone Wise",
+            "ChartFileName":"Output_Monthly_Data",
+            "Stored_procedure_name": "SP_Zone_Monthly",          
+            "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ZoneInput",
+  	    "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\zone_data_template.xltx",
+  	    "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ZoneOutput\\",
+            "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+         "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+            "EmailSubject": "Zone Wise Hiring Monthly Summary for"
+           }
+        ],
+      "WeeklyZone":
+	[ 
+	  {
+	    "MISReport":"Weekly Zone Wise",
+            "ChartFileName":"Output_Weekly_Data",
+            "Stored_procedure_name": "SP_Zone_Weekly",          
+            "InputDataFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ZoneInput",
+  	    "InputTemplateFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\Template\\zone_data_template.xltx",
+  	    "OutputEmailFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\ZoneOutput\\",
+            "LogFile": "E:\\RPA Bots\\Recruitment Automation\\new_recruitment_automation_test\\log file.txt",
+          "EmailTo": "lomharshan.sharma@calibehr.com;abhishek.sapalya@calibehr.com;jayashree.raj@calibehr.com",
+  	  "EmailCc": "siddhesh.kadam@calibehr.com",
+            "EmailSubject": "Zone Wise Hiring Weekly Summary - As on"
+           }
+        ]
+}

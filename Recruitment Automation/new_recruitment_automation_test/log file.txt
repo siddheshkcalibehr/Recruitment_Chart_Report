@@ -1,0 +1,19 @@
+Error in Chart Change Series Section Timeout reached.
+Error in for each activity Timeout reached.
+Error in Chart Change Series Section Timeout reached.
+Error in for each activity Timeout reached.
+Error in Chart Change Series Section Cannot find the UI element corresponding to this selector: <wnd app='excel.exe' cls='NUIDialog' idx='*' /><wnd cls='NetUIHWND' />
+Error in for each activity Cannot find the UI element corresponding to this selector: <wnd app='excel.exe' cls='NUIDialog' idx='*' /><wnd cls='NetUIHWND' />
+Error in Chart Change Series Section Cannot find the UI element corresponding to this selector: <wnd app='excel.exe' cls='NUIDialog' idx='*' /><wnd cls='NetUIHWND' />
+Error in for each activity Cannot find the UI element corresponding to this selector: <wnd app='excel.exe' cls='NUIDialog' idx='*' /><wnd cls='NetUIHWND' />
+Error in Chart Change Series Section Timeout reached.
+Error in for each activity Timeout reached.
+Error in Chart Change Series Section Timeout reached.
+Error in for each activity Timeout reached.
+Error in Chart Change Series Section Timeout reached.
+Error in for each activity Timeout reached.
+Error in Chart Change Series Section Timeout reached.
+Error in for each activity Timeout reached.
+Error in Chart Change Series Section Timeout reached.
+Error in for each activity Timeout reached.
+Error in for each activity Cannot find column 2.
